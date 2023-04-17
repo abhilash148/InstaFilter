@@ -21,9 +21,18 @@ struct ContentView: View {
                 .resizable()
                 .scaledToFit()
             
+            Button("Save Image") {
+                guard let inputImage = inputImage else { return }
+                
+                let imageSaver = ImageSaver()
+                imageSaver.writeToPhotoAlbum(image: inputImage)
+            }
+            
             Button("Select Image") {
                 showingImagePicker = true
             }
+            
+            
         }
 //        .onAppear(perform: loadImage)
         .sheet(isPresented: $showingImagePicker) {
@@ -70,6 +79,7 @@ struct ContentView: View {
     func setImage() {
         guard let inputImage = inputImage else { return }
         image = Image(uiImage: inputImage)
+        UIImageWriteToSavedPhotosAlbum(inputImage, nil, nil, nil)
     }
 }
 
