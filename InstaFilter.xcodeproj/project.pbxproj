@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D435D8A29ED245300DFC5BB /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D435D8929ED245300DFC5BB /* ImageSaver.swift */; };
+		8D435D8D29EE04DC00DFC5BB /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D435D8C29EE04DC00DFC5BB /* ExampleView.swift */; };
 		8DE18A2E29EA9E1B00C3A949 /* InstaFilterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE18A2D29EA9E1B00C3A949 /* InstaFilterApp.swift */; };
 		8DE18A3029EA9E1B00C3A949 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE18A2F29EA9E1B00C3A949 /* ContentView.swift */; };
 		8DE18A3229EA9E1D00C3A949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE18A3129EA9E1D00C3A949 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		8D435D8829ED228600DFC5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D435D8929ED245300DFC5BB /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		8D435D8C29EE04DC00DFC5BB /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 		8DE18A2A29EA9E1B00C3A949 /* InstaFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE18A2D29EA9E1B00C3A949 /* InstaFilterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaFilterApp.swift; sourceTree = "<group>"; };
 		8DE18A2F29EA9E1B00C3A949 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D435D8B29EE04AE00DFC5BB /* practice */ = {
+			isa = PBXGroup;
+			children = (
+				8D435D8C29EE04DC00DFC5BB /* ExampleView.swift */,
+			);
+			path = practice;
+			sourceTree = "<group>";
+		};
 		8DE18A2129EA9E1B00C3A949 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		8DE18A2C29EA9E1B00C3A949 /* InstaFilter */ = {
 			isa = PBXGroup;
 			children = (
+				8D435D8B29EE04AE00DFC5BB /* practice */,
 				8D435D8829ED228600DFC5BB /* Info.plist */,
 				8DE18A2D29EA9E1B00C3A949 /* InstaFilterApp.swift */,
 				8DE18A2F29EA9E1B00C3A949 /* ContentView.swift */,
@@ -149,6 +160,7 @@
 				8DE18A3029EA9E1B00C3A949 /* ContentView.swift in Sources */,
 				8DE18A2E29EA9E1B00C3A949 /* InstaFilterApp.swift in Sources */,
 				8D435D8A29ED245300DFC5BB /* ImageSaver.swift in Sources */,
+				8D435D8D29EE04DC00DFC5BB /* ExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
